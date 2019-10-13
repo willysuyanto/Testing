@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MenuUtama"
+    android:background="@drawable/bgwithrumput"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Belajar \nBahasa Isyarat"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menuBelajar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/bree_serif"
+        android:text="Belajar"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/btnbg"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/menuBermain"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/menuBelajar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Bermain"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/btnbg"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/menuKuis"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/menuBermain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Kuis"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/btnbg"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/menuKeluar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/menuKuis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Keluar"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/btnbg"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
